@@ -15,7 +15,6 @@
 		372E738D22C33A9300F07609 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 372E738C22C33A9300F07609 /* main.m */; };
 		372E739722C33A9300F07609 /* MainProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 372E739622C33A9300F07609 /* MainProjectTests.m */; };
 		372E73A222C33A9300F07609 /* MainProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 372E73A122C33A9300F07609 /* MainProjectUITests.m */; };
-		372E73B122C33AA200F07609 /* AViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 372E73B022C33AA200F07609 /* AViewController.m */; };
 		372E73B422C33AAC00F07609 /* BViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 372E73B322C33AAC00F07609 /* BViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -53,8 +52,6 @@
 		372E739D22C33A9300F07609 /* MainProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MainProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		372E73A122C33A9300F07609 /* MainProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainProjectUITests.m; sourceTree = "<group>"; };
 		372E73A322C33A9300F07609 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		372E73AF22C33AA200F07609 /* AViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AViewController.h; sourceTree = "<group>"; };
-		372E73B022C33AA200F07609 /* AViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AViewController.m; sourceTree = "<group>"; };
 		372E73B222C33AAC00F07609 /* BViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BViewController.h; sourceTree = "<group>"; };
 		372E73B322C33AAC00F07609 /* BViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -116,8 +113,6 @@
 				372E738822C33A9300F07609 /* LaunchScreen.storyboard */,
 				372E738B22C33A9300F07609 /* Info.plist */,
 				372E738C22C33A9300F07609 /* main.m */,
-				372E73AF22C33AA200F07609 /* AViewController.h */,
-				372E73B022C33AA200F07609 /* AViewController.m */,
 				372E73B222C33AAC00F07609 /* BViewController.h */,
 				372E73B322C33AAC00F07609 /* BViewController.m */,
 			);
@@ -272,7 +267,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				372E73B122C33AA200F07609 /* AViewController.m in Sources */,
 				372E738222C33A9000F07609 /* ViewController.m in Sources */,
 				372E738D22C33A9300F07609 /* main.m in Sources */,
 				372E73B422C33AAC00F07609 /* BViewController.m in Sources */,
@@ -450,6 +444,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = APZXVAVRF6;
 				INFOPLIST_FILE = MainProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -467,6 +462,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = APZXVAVRF6;
 				INFOPLIST_FILE = MainProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
